@@ -1,0 +1,15 @@
+[package]
+name = "pixlr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+usvg = "0.38.0"          # SVG parsing
+resvg = "0.38.0"         # SVG rendering
+tiny-skia = "0.9.0"      # Rendering pixmaps
+image = "0.24.7"         # Image manipulation
+
+
+[[bin]]
+name = "pixlr"
+path = "main.rs"
